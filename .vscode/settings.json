@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1bb8c5e2-6825-4f35-8473-37edeb47f753/resourceGroups/tiendaenlinea2021-rg/providers/Microsoft.Web/sites/weemapp",
+    "appService.deploySubpath": "."
+}
