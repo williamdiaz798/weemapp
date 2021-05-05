@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'weem'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a24e07acbcdf477f94e06cc6bc6fdbdc }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b06f2068351c493d829e9c52d11afdff }}
         package: .
