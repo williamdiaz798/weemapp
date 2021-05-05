@@ -1,1 +1,0 @@
-export const ApiLogin = 'https://weemapi.azurewebsites.net/api'
