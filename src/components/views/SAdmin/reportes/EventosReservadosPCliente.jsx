@@ -14,15 +14,19 @@ const columnas=[
         field:'nombre_usuario'
     },
     {
-        title:'Año',
-        field:'año_evento'
+        title: 'Nombre evento',
+        field:'nombre_evento'
     },
     {
-        title:'Mes',
-        field:'mes_evento'
+        title:'Fecha evento',
+        field:'fecha_evento'
+    },
+    {
+        title:'Fecha reservación',
+        field:'fecha_reservacion'
     },{
-        title:'Evento',
-        field:'eventos'
+        title:'Código',
+        field:'codigo_entrada'
     }
 ]
 
