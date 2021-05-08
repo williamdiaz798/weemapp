@@ -3,7 +3,7 @@ import React from 'react'
 class BodyHomeSA extends React.Component{
     render(){
         return(
-            <div className='text-center pt-5 py-5'>
+            <div className='text-center pt-5 py-5' style = {{minHeight:'700px'}}>
                 <h1>Bienvenid@ {localStorage.getItem('nombreUsuario')}</h1>
 
                 <div className="container pt-5 my-4">

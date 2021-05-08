@@ -80,7 +80,7 @@ class MisEventos extends Component{
         return(
             <>
                 <NavAdminEvent/>
-                <div className='text-center pt-5 py-5'>
+                <div className='text-center pt-5 py-5' style = {{minHeight:'700px'}}>
                     <h1>Mis eventos</h1>
                     <div className="barraBusqueda">
                         <input
@@ -103,7 +103,7 @@ class MisEventos extends Component{
                             <div>
                             <div className="row text-center align-items-center border " >
                                 <div className="col-md-4">
-                                    <img src="img/calendar.svg" className="card-img-top img-size-2" alt="..."/>
+                                    <img src="img/calendar.svg" className="card-img-top" alt="..."/>
                                     
                                 </div>
                                 <div className="col-md-4" >

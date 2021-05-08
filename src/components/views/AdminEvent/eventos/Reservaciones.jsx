@@ -82,7 +82,7 @@ class Reservaciones extends Component{
         return(
             <>
                 <NavAdminEvent/>
-                    <div className="container">
+                    <div className="container" style = {{minHeight:'700px'}}>
                         <br/>
                         <h1>Reservaciones por evento</h1>
                         {this.state.errorCarga === true &&

@@ -84,7 +84,7 @@ class ReservasProcesadas extends Component{
         return(
             <>
                 <NavAdmin/>
-                    <div className="container">
+                    <div className="container" style = {{minHeight:'700px'}}>
                         <br/>
                         <h1>Entradas procesadas</h1>
                         {this.state.errorCarga === true &&

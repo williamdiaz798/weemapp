@@ -15,11 +15,16 @@ class ListReports extends Component{
         return(
             <>
                 <NavAdmin/>
-                <div className="container align-items-center text-center pt-5 py-5 min-width">
+                <div className="container align-items-center text-center pt-5 py-5 min-width" style = {{minHeight:'700px'}}>
                     <h1>Reportes</h1>
-                    <a href="/enventosCreadosPAdmin" className="text-dark"><h2 className="border border-dark">Eventos creados por administrador</h2></a>
-                    <a href="/eventosReservadosPCliente" className="text-dark"><h2 className="border border-dark">Reserva por cliente</h2></a>
-                    <a href="/reservasProcesadas" className="text-dark"><h2 className="border border-dark">Reservas registradas en ventanilla</h2></a>
+                    <br />
+                    <div className="pt-4 border border-dark" style={{minHeight: '100px'}}>
+                        <a href="/enventosCreadosPAdmin" className="text-dark"><h2 className=""><b>Eventos creados por administrador</b></h2></a>
+                    </div>
+                    <br />
+                    <div className="pt-4 border border-dark" style={{minHeight: '100px'}}>
+                        <a href="/eventosReservadosPCliente" className="text-dark"><h2 className=""><b>Reserva por cliente</b></h2></a>
+                    </div>
                 </div>
                 <FooterAdmin/>
             </>

@@ -170,7 +170,7 @@ class MiPerfilSAdmin extends Component{
                 {localStorage.getItem('tipoUsuario') === '4' &&
                     <NavClient/>
                 }
-                <div className="container" style = {{minHeight:'500px'}}>
+                <div className="container" style = {{minHeight:'700px'}}>
                 {this.state.error === true &&
                         <div id="error" className="alert alert-danger ocultar">
                             {this.state.errorMSG}

@@ -125,12 +125,12 @@ class HomeCliente extends Component{
 
     render(){
         const bodyTelefono=(
-            <div className="container white position-sticky" style={mobalStyle}>
+            <div className="container white position-sticky" style={mobalStyle} >
                 <h2 className="pt-2">Ingrese un numero de telefono</h2>
                 <form onSubmit={this.manejadorSubmit}>
                     
                     <div className="mb-3">
-                        <label  className="labelPassword">Numero de telefono (El número debera ir sin guiones y sin codigo de área)</label>
+                        <label  className="labelPassword">Numero de telefono (Por favor solo colocar el número sin guiones)</label>
                         <input type="tel" className="form-control" name="telefonoUsuario"  onChange={this.manejadorChangeTelefono} pattern="+503[0-9]{4}[0-9]{4}" defaultValue='+503'/>
                     </div>
                     <button type="submit" className="btn btn-light" id="iniciarSesion" onClick={this.manejadorBotonGuardarTelefono}>Guardar telefono</button>
@@ -143,7 +143,7 @@ class HomeCliente extends Component{
         return(
             <>
                 <NavClient />
-                <div className='text-center pt-5 py-5'>
+                <div className='text-center pt-5 py-5' style = {{minHeight:'700px'}}>
                     <h2>Bienvenid@ {localStorage.getItem('nombreUsuario')}</h2>
                     <br/>
                     <h1>Eventos reservados recientemente</h1>

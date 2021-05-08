@@ -52,7 +52,7 @@ class HomeAdmin extends Component{
         return(
             <>
                 <NavAdminEvent/>
-                <div className='text-center pt-5 py-5'>
+                <div className='text-center pt-5 py-5' style = {{minHeight:'700px'}}>
                     <h2>Bienvenid@ {localStorage.getItem('nombreUsuario')}</h2>
                     <br/>
                     <h1>Eventos creados recientemente</h1>
@@ -67,7 +67,7 @@ class HomeAdmin extends Component{
                             <div>
                             <div className="row border "  >
                                 <div className="col-md-4">
-                                    <img src="img/calendar.svg" className="card-img-top img-size-2" alt="..."/>
+                                    <img src="img/calendar.svg" className="card-img-top" alt="..."/>
                                     
                                 </div>
                                 <div className="col-md-4" >

@@ -14,19 +14,24 @@ const columnas=[
         field:'nombre_usuario'
     },
     {
-        title:'Año',
-        field:'año_evento'
+        title:'Evento',
+        field:'nombre_evento'
     },
     {
-        title:'Mes',
-        field:'mes_evento'
-    },{
-        title:'Evento',
-        field:'eventos'
+        title:'Fecha creación',
+        field:'fecha_creacion'
+    },
+    {
+        title:'Fecha de evento',
+        field:'fecha_evento'
     },
     {
         title:'Entradas generadas',
         field:'entradas_totales_evento'
+    },
+    {
+        title:'Precio envento',
+        field:'precio_entradas_evento'
     }
 ]
 
@@ -60,7 +65,7 @@ class EnventosCreadosPAdmin extends Component{
         return(
             <>
                 <NavAdmin/>
-                    <div className="container">
+                    <div className="container" style = {{minHeight:'700px'}}>
                         <br/>
                         <h1>Eventos creados por Administrador</h1>
                         {this.state.errorCarga === true &&

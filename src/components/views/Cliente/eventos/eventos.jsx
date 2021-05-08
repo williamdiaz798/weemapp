@@ -83,7 +83,7 @@ class Eventos extends Component{
         return(
             <>
                 <NavClient/>
-                <div className='text-center pt-5 py-5'>
+                <div className='text-center pt-5 py-5' style = {{minHeight:'700px'}}>
                     <h1>Eventos</h1>
                     {this.state.error === true &&
                         <div id="error" className="alert alert-danger ocultar">
