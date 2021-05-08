@@ -68,6 +68,7 @@ class CrearEvento extends React.Component{
                 [e.target.name]: e.target.value
             }
         })
+        console.log(this.state.form)
     }
 
     manejadorChangeMapa = async e =>{

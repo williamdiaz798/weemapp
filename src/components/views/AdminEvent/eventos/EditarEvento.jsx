@@ -43,8 +43,8 @@ class EditarEvento extends React.Component{
                             id_evento:props.match.params.idEvento,
                             nombre_evento: response.data[0].nombre_evento,
                             fecha_evento: response.data[0].fecha_evento,
-                            hora_evento: response.data[0].hora_evento,
-                            hora_evento_2: response.data[0].hora_evento_2,
+                            hora_evento: response.data[0].hora_evento_2,
+                            //hora_evento_2: response.data[0].hora_evento_2,
                             direccion_evento: response.data[0].direccion_evento,
                             entradas_totales_evento: response.data[0].entradas_totales_evento,
                             precio_entradas_evento: response.data[0].precio_entradas_evento,
@@ -109,6 +109,7 @@ class EditarEvento extends React.Component{
                 [e.target.name]: e.target.value
             }
         })
+        console.log(this.state.form)
     }
 
     manejadorChangeMapa = async e =>{
@@ -164,7 +165,7 @@ class EditarEvento extends React.Component{
                             </div>
                             <div className="mb-3">
                                 <label className="labelCorreo">Hora</label>
-                                <input type="time" className="form-control" id="horaEvento" name="hora_evento"required  onChange={this.manejadorChange} defaultValue={this.state.form.hora_evento_2}/>
+                                <input type="time" className="form-control" id="horaEvento" name="hora_evento"required  onChange={this.manejadorChange} defaultValue={this.state.form.hora_evento}/>
                             </div>
                             <div className="mb-3">
                                 <label className="labelCorreo">Direccion</label>
