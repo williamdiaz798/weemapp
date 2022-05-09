@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'weemapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_832D6DBB3918466594925D5A50106339 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_51F2B3D1C93F4B5F8691378898AF84A4 }}
           package: .
